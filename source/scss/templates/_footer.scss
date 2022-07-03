@@ -1,0 +1,89 @@
+
+/*=================================================================
+  Footer section
+==================================================================*/
+
+
+.top-footer {
+  background-color: #24222b;
+  padding: 100px 0 80px;
+  h3 {
+    font-size: 14px;
+    line-height: 1.5;
+    color: $light;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+  }
+  li a {
+    font-size: 13px;
+    line-height: 30px;
+    color: #bdbdbd;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    -webkit-transition: color .3s;
+    -moz-transition: color .3s;
+    -ms-transition: color .3s;
+    transition: color .3s;
+    font-family: $open-sans;
+    display: block;
+    &:hover {
+      color: $primary-color;
+    }
+  }
+}
+
+.footer-bottom {
+  text-align: center;
+  background-color: #24222b;
+  border-top: 1px solid #2c2c2c;
+  padding: 30px 0;
+  h5 {
+    font-size: 12px;
+    line-height: 1;
+    color: #888888;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 7px;
+    margin-bottom: 3px;
+  }
+  h6 {
+    font-size: 11px;
+    line-height: 15px;
+    color: #888888;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+  }
+  a {
+    color: $primary-color;
+  }
+}
+
+ul.social-icons {
+  li {
+    display: inline-block;
+    a {
+      font-size: 18px;
+      padding: 3px 8px;
+    }
+  }
+}
+.about-company {
+  margin-top: 40px;
+  p {
+    font-size: 13px;
+    color: #bdbdbd;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-top: 15px;
+  }
+  .footer-logo {
+    width: 120px;
+    display: inline-block;
+  }
+}

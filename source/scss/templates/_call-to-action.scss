@@ -1,0 +1,44 @@
+/*=================================================================
+ Call To Action 1
+==================================================================*/
+
+.call-to-action {
+  h2 {
+    line-height: 1.5;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .subscription-form {
+    margin-top: 15px;
+    input[type="text"] {
+      box-shadow:none;
+      height:50px;
+    }
+    .btn-main {
+      height: 50px;
+    }
+  }
+}
+
+
+
+
+
+/*=================================================================
+ Call To Action 2
+==================================================================*/
+
+.call-to-action-2 {
+  padding:100px 0;
+  color: $light;
+  h2 {
+    line-height: 1.5;
+  }
+  p {
+    color: $light;
+  }
+  .btn-main {
+    margin-top: 20px;
+  }
+  
+}

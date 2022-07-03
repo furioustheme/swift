@@ -1,0 +1,86 @@
+/*=================================================================
+  Latest Posts
+==================================================================*/
+
+.blog {
+  background: #F6F6F6;
+}
+
+.post {
+  background: $light;
+  margin-bottom: 40px;
+  .post-media {
+    &.post-media-audio {
+      iframe {
+        width: 100%;
+      }
+    }
+  }
+  .post-title {
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin: 25px 0 0;
+    padding: 0 20px 5px;
+    a {
+      color: #000;
+      &:hover {
+        color: $primary-color;
+      }
+    }
+  }
+  .post-meta {
+    font-size: 13px;
+    margin-top: 5px;
+    padding: 0 20px 5px;
+    ul {
+      li {
+        display: inline-block;
+        color:#a7a7a7;
+        margin-right: 20px;
+        font-size: 11px;
+        letter-spacing: 1px;
+        a {
+          color:#a7a7a7;
+          &:hover {
+            color:$primary-color;
+          }
+        }
+      }
+    }
+    .post-author {
+      color:$black;
+    }
+  }
+  .post-content {
+    padding:5px 20px;
+    p {
+      color: #757575;
+      font-size: 16px;
+      margin: 10px 0;
+    }
+    .btn-main {
+      padding:12px 25px;
+      margin:15px 0;
+    }
+  }
+}
+.post-pagination {
+  margin-top: 70px;
+  >li {
+    margin:0 2px;
+    display: inline-block;
+    >a {
+      color: $black;
+    }
+    &.active>a {
+      background: $primary-color;
+      border:1px solid $primary-color;
+    }
+  }
+  >li:first-child>a, >li:last-child>a {
+    border-radius: 0;
+  }
+}
+
+

@@ -1,0 +1,51 @@
+
+
+/*=================================================================
+  Navigation
+==================================================================*/
+.logo{
+  width: 100px;
+  display: inline-block;
+  img {
+    width:100%;
+  }
+}
+.navigation {
+  background: $light;
+  -webkit-transition: .3s all;
+  -o-transition: .3s all;
+  transition: .3s all;
+  padding:10px 0;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.06);
+  .navbar-nav > li {
+    &.active {
+      a {
+        color:$primary-color;
+      }
+    }
+     > a {
+      color: #555;
+      font-size: 14px;
+      font-weight: 600;
+      padding: 20px 15px;
+      text-transform: uppercase;
+      -webkit-transition: .2s ease-in-out 0s;
+      -moz-transition: .2s ease-in-out 0s;
+      -o-transition: .2s ease-in-out 0s;
+      transition: .2s ease-in-out 0s;
+      &:hover, &:active, &:focus{
+        background: none;
+        color: $primary-color;
+      }
+    }
+  }
+}
+
+
+
+.navbar-brand {
+  height: auto;
+  padding: 8px 0;
+}
+
+

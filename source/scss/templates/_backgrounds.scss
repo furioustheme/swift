@@ -1,0 +1,20 @@
+.background {
+	background-size:cover;
+}
+.bg-1 {
+	background-image:url(../images/slider/slider-bg-1.jpg);
+}
+
+.bg-2 {
+	background-image: url('../images/page-header-1.jpg');
+	background-size: cover;
+	&:before {
+		background: rgba(0, 0, 0, 0.5);
+		position: absolute;
+		content: '';
+		top:0;
+		right:0;
+		left:0;
+		bottom:0;
+	}
+}
